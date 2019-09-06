@@ -16,10 +16,10 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "Template (JavaScript)",
+        "title": "My First Test",
         "titleLang": {
-            "en": "Template (JavaScript)",
-            "de": "Vorlage (JavaScript)",
+            "en": "My First Test",
+            "de": "Mein erster Test",
             "ru": "Шаблон (JavaScript)",
             "pt": "Template (JavaScript)",
             "nl": "Sjabloon (JavaScript)",
@@ -30,8 +30,8 @@
             "zh-cn": "模板（JavaScript）"
         },
         "desc": {
-            "en": "Template for adapter development",
-            "de": "Vorlage für die Adapterentwicklung",
+            "en": "My first Test",
+            "de": "Mein erster Test",
             "ru": "Шаблон для разработки адаптера",
             "pt": "Modelo para desenvolvimento de adaptador",
             "nl": "Sjabloon voor ontwikkeling van adapters",
@@ -42,23 +42,23 @@
             "zh-cn": "适配器开发模板"
         },
         "authors": [
-            "Author <author@mail.com>"
+            "Carsten Groth <devel@mailsmart.de>"
         ],
         "keywords": [
             "ioBroker",
-            "template",
             "Smart Home",
             "home automation"
         ],
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "template.png",
+        "icon": "my-first-test.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Author/ioBroker.template/master/admin/template.png",
-        "readme": "https://github.com/Author/ioBroker.template/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/thesnoopy/ioBroker.template/master/admin/my-first-test.png",
+        "readme": "https://github.com/thesnoopy/ioBroker.template/blob/master/README.md",
         "loglevel": "info",
-        "mode": "daemon",
+        "mode": "schedule",
+	"schedule": "*/5 * * * *",
         "type": "general",
         "compact": true,
         "materialize": true,
@@ -66,8 +66,8 @@
         "adminTab": {
             "singleton": true,
             "name": {
-                "en": "Template (JavaScript)",
-                "de": "Vorlage (JavaScript)",
+                "en": "My First Test",
+                "de": "Mein erster Test",
                 "ru": "Шаблон (JavaScript)",
                 "pt": "Template (JavaScript)",
                 "nl": "Sjabloon (JavaScript)",
